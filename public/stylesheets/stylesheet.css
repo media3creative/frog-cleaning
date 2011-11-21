@@ -1,0 +1,428 @@
+@font-face {
+  font-family: TrajanPro-Regular;
+  src: url("/fonts/trajanpro-regular-webfont.eot");
+  src: url("/fonts/trajanpro-regular-webfont.eot?#iefix") format("embedded-opentype"), url("/fonts/trajanpro-regular-webfont.woff") format("woff"), url("/fonts/trajanpro-regular-webfont.ttf") format("truetype"), url("/fonts/trajanpro-regular-webfont.svg#embedfont-1Medium") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Chinese;
+  src: url("/fonts/chinesetakeaway-webfont.eot");
+  src: url("/fonts/chinesetakeaway-webfont.eot?#iefix") format("embedded-opentype"), url("/fonts/chinesetakeaway-webfont.woff") format("woff"), url("/fonts/chinesetakeaway-webfont.ttf") format("truetype"), url("/fonts/chinesetakeaway-webfont.svg#embedfont-1Medium") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Helvetica_light;
+  src: url(/fonts/helvetica_light.ttf) format("truetype");
+}
+
+.preloader {
+  position: fixed;
+  z-index: 100;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.preloader-box {
+  text-align: center;
+  position: relative;
+  margin: auto;
+  margin-top: 25%;
+  height: 200px;
+  width: 200px;
+}
+
+.bg1 {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  background: url(/images/bg_1.jpg) no-repeat top center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.bg2 {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  background: url(/images/bg_1.jpg) no-repeat top center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.left-side-bar-bg {
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-color: transparent;
+  background-image: url("/images/side_bar_bg.png");
+  background-origin: padding-box;
+  background-position: 0 0;
+  background-repeat: repeat;
+  background-size: auto auto;
+  height: 100%;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 562px;
+}
+
+.left-side-bar {
+  position: fixed;
+  left: 105px;
+  top: 0px;
+  box-shadow: 2px 0px 8px rgba(0, 0, 0, 0.8);
+  -moz-box-shadow: 2px 0px 8px rgba(0, 0, 0, 0.8);
+  -webkit-box-shadow: 2px 0px 8px rgba(0, 0, 0, 0.8);
+  width: 220px;
+  height: 400px;
+}
+
+.logo {
+  margin: 10px;
+  margin-top: 30px;
+  position: relative;
+  height: 160px;
+  width: 200px;
+}
+
+.menu-container {
+  position: fixed;
+  top: 200px;
+  left: 0px;
+  margin-left: 52px;
+  height: 500px;
+  width: 250px;
+  font-family: "TrajanPro-Regular";
+  font-weight: 20;
+  color: white;
+}
+
+.menu-container ul {
+  position: absolute;
+  list-style-type: none;
+  letter-spacing: 0.075em;
+  line-height: 35px;
+}
+
+.menu-container li {
+  margin-top: 5px;
+}
+
+.menu-container ul a {
+  opacity: 0;
+  font-size: 16px;
+  color: inherit;
+  text-decoration: none;
+  line-height: 20px;
+  text-align: center;
+}
+
+.menu-hl {
+  position: absolute;
+  left: 20px;
+  margin-top: -27px;
+  background-color: #13133d;
+  height: 25px;
+  width: 0px;
+}
+
+.red-line {
+  display: inline;
+  position: relative;
+  float: left;
+  height: 2px;
+  width: 7px;
+  margin-top: 7px;
+  margin-right: 5px;
+  background-color: #931616;
+}
+
+.sub-menu-box {
+  float: left;
+}
+
+.sub-menu {
+  display: none;
+  list-style-type: none;
+  position: relative;
+  line-height: 20px;
+  font-size: 12px;
+}
+
+.footer {
+  position: fixed;
+  text-align: left;
+  padding: 5px;
+  padding-left: 20px;
+  background-color: #13133d;
+  height: 20px;
+  width: 100%;
+  bottom: 0px;
+  left: 0px;
+  text-align: left;
+  color: white;
+  font-size: 14px;
+}
+
+.ourLink {
+  margin-top: 10px;
+  color: white;
+  font-family: "TrajanPro-Regular";
+  font-size: 12px;
+}
+
+.ourlink :hover {
+  color: #696969;
+}
+
+.downloadLink {
+  margin-top: 10px;
+  color: #931616;
+  font-family: "TrajanPro-Regular";
+  font-size: 12px;
+}
+
+.downloadlink :hover {
+  color: #696969;
+}
+
+.phone-num {
+  color: white;
+  font-size: 14px;
+}
+
+#main-1-link, #main-2-link, #main-3-link, #main-4-link, #main-5-link, #main-6-link, #main-7-link, #main-8-link {
+  display: block;
+  height: 25px;
+  width: 225px;
+}
+
+body {
+  background-color: black;
+}
+
+h1 {
+  font-family: Helvetica_light;
+  font-size: 30px;
+  letter-spacing: 0.3em;
+  color: white;
+  margin-top: 130px;
+  margin-left: 30px;
+  opacity: 1;
+  font-weight: 100;
+}
+
+h2 {
+  font-family: Helvetica_light;
+  font-size: 16px;
+  color: #13133d;
+  margin: 0px;
+  margin-top: 20px;
+  margin-left: 30px;
+  opacity: 1;
+  border-bottom: thin solid #13133d;
+  margin-right: 30px;
+}
+
+h3 {
+  font-family: Helvetica_light;
+  font-size: 13px;
+  color: #333333;
+  margin: 0px;
+  margin-top: 10px;
+  margin-left: 30px;
+  letter-spacing: 0.075em;
+  opacity: 1;
+}
+
+p {
+  color: black;
+  opacity: 1;
+  margin-left: 30px;
+  margin-right: 15px;
+  letter-spacing: 0.075em;
+  font-family: Helvetica_light;
+}
+
+img {
+  border: 2px solid white;
+}
+
+td {
+  padding-left: 20px;
+}
+
+.social-icon {
+  position: relative;
+  margin-left: 20px;
+}
+
+.photo-preload {
+  position: fixed;
+  top: 0px;
+  left: -2000px;
+  height: 1px;
+  width: 1px;
+}
+
+#page1, #page2, #page3, #page4, #page5 {
+  position: absolute;
+  z-index: 1;
+  display: block;
+  top: 200px;
+  left: 370px;
+  width: 700px;
+  height: auto;
+  font-size: 12px;
+  box-shadow: 3px 0px 10px rgba(0, 0, 0, 0.8);
+  -moz-box-shadow: 3px 0px 10px rgba(0, 0, 0, 0.8);
+  -webkit-box-shadow: 3px 0px 10px rgba(0, 0, 0, 0.8);
+}
+
+.scroller {
+  padding: 20px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 20;
+  -webkit-touch-callout: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  width: 100%;
+  padding: 0;
+  border: 1px solid #aaaaaa;
+  border-style: solid;
+  border-width: 0.7px;
+  border-color: #383733;
+  background-image: url("/images/trans_bg.png");
+  height: auto;
+}
+
+.content {
+  padding: 20px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 20;
+  -webkit-touch-callout: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  width: 100%;
+  padding: 0;
+  border: 1px solid #aaaaaa;
+  border-style: solid;
+  border-width: 0.7px;
+  border-color: #383733;
+  background: url(/images/bg_pattern2.png);
+  height: auto;
+}
+
+.close-content {
+  z-index: 2;
+  height: 25px;
+  background-color: #931616;
+  float: right;
+  color: white;
+  font-family: "TrajanPro-Regular";
+  font-size: 15px;
+  width: 75px;
+  text-align: center;
+  padding-top: 3px;
+  margin-top: 0px;
+}
+
+.close-content:hover {
+  background-color: white;
+  color: #931616;
+}
+
+.gallery-container {
+  text-align: center;
+  width: 500px;
+}
+
+.icon {
+  border: 0 solid white;
+}
+
+.normal-list {
+  color: black;
+  font-family: "TrajanPro-Regular";
+  line-height: 25px;
+}
+
+.content-text {
+  background-image: url("/images/trans_bg.png");
+  height: auto;
+  -moz-border-radius: 5px 25px 5px 25px;
+  border-radius: 5px 25px 5px 25px;
+  padding: 20px;
+  padding-bottom: 40px;
+}
+
+.contact-form {
+  overflow: hidden;
+}
+.contact-form iframe {
+  position: relative;
+  top: -30px;
+  margin-top: -30px;
+}
+
+.download {
+  color: white;
+  font-family: "TrajanPro-Regular";
+  font-size: 13px;
+  margin: 20px;
+}
+
+.normal li {
+  color: black;
+  font-family: Helvetica_light;
+  font-size: 14px;
+}
+
+.title {
+  float: left;
+  position: relative;
+  text-align: center;
+  margin: 0px;
+  margin-top: -5px;
+  background-color: #931616;
+  height: auto;
+  min-height: 2px;
+  width: 700px;
+}
+
+.column {
+  width: 350px;
+  float: left;
+  margin-bottom: 10px;
+}
+
+.top-content {
+  width: 700px;
+  height: 181px;
+  background-image: url("/images/content_top.png");
+  position: absolute;
+  top: -181px;
+  text-align: center;
+}
