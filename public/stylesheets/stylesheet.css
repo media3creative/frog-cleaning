@@ -94,7 +94,7 @@
   -moz-box-shadow: 2px 0px 8px rgba(0, 0, 0, 0.8);
   -webkit-box-shadow: 2px 0px 8px rgba(0, 0, 0, 0.8);
   width: 220px;
-  height: 400px;
+  height: 430px;
 }
 
 .logo {
@@ -110,7 +110,7 @@
   top: 200px;
   left: 0px;
   margin-left: 52px;
-  height: 500px;
+  height: 550px;
   width: 250px;
   font-family: "TrajanPro-Regular";
   font-weight: 20;
@@ -285,7 +285,7 @@ td {
   width: 1px;
 }
 
-#page1, #page2, #page3, #page4, #page5 {
+#page1, #page2, #page3, #page4, #page5, #page6 {
   position: absolute;
   z-index: 1;
   display: block;
