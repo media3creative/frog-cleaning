@@ -42,13 +42,13 @@
         %a{:href => "#", :id => "main-2-link"} ABOUT
         .menu-hl
       %li
+        %a{:href => "#", :id => "main-5-link"} GALLERY
+        .menu-hl
+      %li
         %a{:href => "#", :id => "main-3-link"} FREE ESTIMATE
         .menu-hl
       %li
         %a{:href => "#", :id => "main-4-link"} SCHEDULE NOW
-        .menu-hl
-      %li
-        %a{:href => "#", :id => "main-5-link"} TESTIMONIAL
         .menu-hl
       %li
         %a{:href => "#", :id => "main-6-link"} CONTACT
@@ -57,41 +57,95 @@
     .top-content
       %h1 HOME
     .content
-      %h2 FROG'S STORY
-      .column
-        %h3 Headline 1
-        %p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam condimentum neque sit amet nunc convallis nec fringilla massa ullamcorper. Pellentesque dictum arcu at enim malesuada ornare. Nunc lacinia eros elementum nisi rhoncus auctor. Etiam facilisis quam a felis tempor aliquam.
-        %p Vivamus placerat vestibulum enim, vel interdum justo mattis vel. Nunc bibendum sapien sit amet lectus pretium eu aliquam arcu pharetra. Nullam sed lacus nec urna vestibulum laoreet condimentum in justo. Maecenas nisl nibh.
-      .column
+      %h2 FROG'S SERVICES
+      .column{:style =>"width: 220px;"}
+        %br
+        %img{:height => "180", :src => "/images/icons/broom.jpg", :width => "180", :border => "0", :class => "icon",:style=>"margin-left:30px"}
+        %h3 One Headline
+        %p
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam condimentum neque sit amet nunc convallis nec fringilla massa ullamcorper.
+          %br
+          %br
+          %br
+          LEARN MORE...
+      .column{:style =>"width: 220px;"}
+        %br
+        %img{:height => "180", :src => "/images/icons/brush.jpg", :width => "180", :border => "0", :class => "icon",:style=>"margin-left:30px"}
         %h3 Another Headline
-        %p Vivamus placerat vestibulum enim, vel interdum justo mattis vel. Nunc bibendum sapien sit amet lectus pretium eu aliquam arcu pharetra. Nullam sed lacus nec urna vestibulum laoreet condimentum in justo. Maecenas nisl nibh.
-        %p Aenean porta, sem eu aliquet molestie, massa nunc adipiscing orci, quis tempor nisi massa malesuada odio. Donec ac venenatis nisi. Maecenas ultrices feugiat nisl, molestie imperdiet eros gravida nec. Aliquam risus velit, consequat ac molestie at, elementum sit amet odio.
+        %p
+          Vivamus placerat vestibulum enim, vel interdum justo mattis vel. Nunc bibendum sapien sit amet lectus pretium eu aliquam arcu pharetra.
+          %br
+          %br
+          DISCOVER ...
+      .column{:style =>"width: 220px;"}
+        %br
+        %img{:height => "180", :src => "/images/icons/phone.jpg", :width => "180", :border => "0", :class => "icon",:style=>"margin-left:30px"}
+        %h3 Just Another Headline
+        %p 
+          Aenean porta, sem eu aliquet molestie, massa nunc adipiscing orci, quis tempor nisi massa malesuada odio.
+          %br
+          %br
+          %br
+          CONTACT...
   #page2
     .top-content
       %h1 ABOUT
     .content
-      %h2 Coming Soon...
-      %br
-      %br
+      %h2 FROG'S STORY
+      .column{:style =>"width:700px;"}
+        %h3 One Headline
+        %p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam condimentum neque sit amet nunc convallis nec fringilla massa ullamcorper. Pellentesque dictum arcu at enim malesuada ornare. Nunc lacinia eros elementum nisi rhoncus auctor. Etiam facilisis quam a felis tempor aliquam.
+        %p Vivamus placerat vestibulum enim, vel interdum justo mattis vel. Nunc bibendum sapien sit amet lectus pretium eu aliquam arcu pharetra. Nullam sed lacus nec urna vestibulum laoreet condimentum in justo. Maecenas nisl nibh.
+      .column
+        %img{:height => "250", :src => "/images/content_pic_1.jpg", :width => "300", :border => "0", :class => "icon",:style=>"margin-left:30px"}
+      .column
+        %h3 Another Headline
+        %p Vivamus placerat vestibulum enim, vel interdum justo mattis vel. Nunc bibendum sapien sit amet lectus pretium eu aliquam arcu pharetra. Nullam sed lacus nec urna vestibulum laoreet condimentum in justo. Maecenas nisl nibh.
+        %p Aenean porta, sem eu aliquet molestie, massa nunc adipiscing orci, quis tempor nisi massa malesuada odio. Donec ac venenatis nisi. Maecenas ultrices feugiat nisl, molestie imperdiet eros gravida nec. Aliquam risus velit, consequat ac molestie at, elementum sit amet odio.
+        %br
+        %br
   #page3
     .top-content
       %h1 FREE ESTIMATE
     .content
-      %h2 Coming Soon...
       %br
       %br
+      .contact-form
+        %iframe{:allowtransparency => "true", :frameborder => "0", :height => "958", :scrolling => "no", :src => "http://media3creative.wufoo.com/embed/x7w3q9/", :style => "width:80%;border:none;margin-left: 50px;"}
   #page4
     .top-content
       %h1 SCHEDULE NOW
     .content
-      %h2 Coming Soon...
       %br
       %br
+      .contact-form
+        %iframe{:allowtransparency => "true", :frameborder => "0", :height => "1180", :scrolling => "no", :src => "http://media3creative.wufoo.com/embed/x7w3w3/", :style => "width:80%;border:none;margin-left: 50px;"}
+
   #page5
     .top-content
-      %h1 TESTIMONIAL
+      %h1 GALLERY
     .content
-      %h2 Coming Soon...
+      .column{:style =>"width:700px;"}
+        %a{:href => "/images/content_pic_1.jpg", :rel => "lightbox[gallery]"}
+          %img{:height => "80", :src => "/images/gallery/1.jpg", :width => "120"}
+        %a{:href => "/images/content_pic_1.jpg", :rel => "lightbox[gallery]"}
+          %img{:height => "80", :src => "/images/gallery/1.jpg", :width => "120"}
+        %a{:href => "/images/content_pic_1.jpg", :rel => "lightbox[gallery]"}
+          %img{:height => "80", :src => "/images/gallery/1.jpg", :width => "120"}
+        %a{:href => "/images/content_pic_1.jpg", :rel => "lightbox[gallery]"}
+          %img{:height => "80", :src => "/images/gallery/1.jpg", :width => "120"}
+        %a{:href => "/images/content_pic_1.jpg", :rel => "lightbox[gallery]"}
+          %img{:height => "80", :src => "/images/gallery/1.jpg", :width => "120"}
+        %a{:href => "/images/content_pic_1.jpg", :rel => "lightbox[gallery]"}
+          %img{:height => "80", :src => "/images/gallery/1.jpg", :width => "120"}
+        %a{:href => "/images/content_pic_1.jpg", :rel => "lightbox[gallery]"}
+          %img{:height => "80", :src => "/images/gallery/1.jpg", :width => "120"}
+        %a{:href => "/images/content_pic_1.jpg", :rel => "lightbox[gallery]"}
+          %img{:height => "80", :src => "/images/gallery/1.jpg", :width => "120"}
+        %a{:href => "/images/content_pic_1.jpg", :rel => "lightbox[gallery]"}
+          %img{:height => "80", :src => "/images/gallery/1.jpg", :width => "120"}
+        %a{:href => "/images/content_pic_1.jpg", :rel => "lightbox[gallery]"}
+          %img{:height => "80", :src => "/images/gallery/1.jpg", :width => "120"}  
       %br
       %br
   #page6
@@ -106,8 +160,11 @@
       %p 
         %i arzac@frogcleaningservices.com
       %h2 Contact Us
+      %br
+      %br
       .contact-form
-        %iframe{:allowtransparency => "true", :frameborder => "0", :height => "530", :scrolling => "no", :src => "http://media3creative.wufoo.com/embed/q7p5x7/", :style => "width:600px;border:none;margin-left: 30px;"}
+        %iframe{:allowtransparency => "true", :frameborder => "0", :height => "958", :scrolling => "no", :src => "http://media3creative.wufoo.com/embed/x7w3q9/", :style => "width:80%;border:none;margin-left: 50px;"}
+
   .footer
     281.844.1029 | arzac@frogcleaningservices.com | Copyright &copy 2011 FROG. All rights reserved. 
     %a.ourLink{:href => "http://media3creative.com/forms/q7p5x7/", :title => "Media 3 Creative"} POWERED BY | Media 3 Creative
